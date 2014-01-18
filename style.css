@@ -354,6 +354,25 @@ sup {
 	margin-left: 30px;
 	list-style-type: decimal;
 }
+#content #unnata_content div.post div.image {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#content #unnata_content div.post div#image1.image img {
+	border-radius: 30px;
+	border: 5px solid rgb(200,100,100);
+	width: 369px;
+	height: 323px;
+}
+#content #unnata_content div.post div#image2.image img {
+	border-radius: 30px;
+	border: 5px solid rgb(200,100,100);
+	width: 225px;
+	height: 224px;
+}
 
 span.unnata_footnote_symbol {
 	font-size: 20px;
@@ -371,6 +390,10 @@ p#unnata_footnote {
 	font-style: italic;
 	text-align: center;
 	color: white;
+}
+
+#content #home_content h1 {
+	margin-bottom: 5px;
 }
 
 #content #home_content #text1 {
@@ -391,27 +414,36 @@ p#unnata_footnote {
 	margin-top: 5px;
 }
 
-#content #home_content img {
-	float: left;
-	margin: 0px 20px 0px 0px;
-	width: 300px;
-	height: 400px;
-}
-
 p.important {
 	font-size: 20px;
 	font-weight: bold;
 }
 
-#content #home_content #text2 p.signature {
+#content #home_content p.signature {
 	margin-top: 30px;
+}
+
+#content #home_content #board {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+#content #home_content #board img {
+	margin-left: 300px;
+}
+
+#content #home_content #aerial_image {
+	margin-bottom: 20px;
+	width: 100%;
 }
 
 #content #home_content #prenatal {
 	cursor: pointer;
-	width: 650px;
-	height: 450px;
-	float: left;
+	width: 700px;
+	height: 330px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 #content #home_content #prenatal img {
@@ -428,10 +460,15 @@ p.important {
 	margin-left: -50px;
 }
 
+#content #home_content #prenatal #cycle h1 {
+	margin-top: 20px;
+}
 #content #home_content #prenatal #cycle p {
 	font-size: 1.2em;
 	color: white;
 	text-align: center;
+
+	margin-top: 30px;
 }
 
 #content #home_content #prenatal #cycle p#up {
@@ -455,6 +492,18 @@ p.important {
 	margin-left: 10px;
 }
 
+#content #aboutus_content img {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+#content #aboutus_content h1 {
+	margin-bottom: 15px;
+	font-style: italic;
+}
+#content #aboutus_content p {
+	font-size: 17px;
+}
 /* Sidebar */
 
 #sidebar {
@@ -823,7 +872,7 @@ table.program_table td a
 }
 #content #program #cycle p {
 	width: 210px;
-	margin-top: 35px;
+	margin-top: 55px;
 	margin-left: 20px;
 	font-size: 0.8em;
 	color: white;
