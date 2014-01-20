@@ -322,12 +322,16 @@ sup {
 	float: left;
 }
 
-#content #unnata_content div.post img {
+#content #unnata_content div.post div.image {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#content #unnata_content div.post div.image img {
 	float: left;
 	width: 300px;
 	height: 400px;
-	margin-left: 10px;
-	margin-right: 10px;
+	border-radius: 30px;
+	border: 5px solid rgb(200,100,100);
 }
 
 #content #unnata_content div.post div.text {
@@ -349,30 +353,34 @@ sup {
 	display: block;
 }
 
-/* This if for the prenatal page, but has unnata_content label. */
-#content #unnata_content div.post div.text ul {
+/* Prenatal Yoga page. */
+#content #prenatal_content div.images {
+	width: 400px;
+	height: 600px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+#content #prenatal_content div.images img {
+	border-radius: 30px;
+	border: 5px solid rgb(200,100,100);
+	margin-bottom: 20px;
+}
+#content #prenatal_content div.text {
+	width: 600px;
+	float: left;
+}
+#content #prenatal_content div.text h2 {
+	margin-bottom: 20px;
+}
+#content #prenatal_content div.text p {
+	margin-bottom: 10px;
+}
+#content #prenatal_content div.text ul {
 	margin-left: 30px;
 	list-style-type: decimal;
 }
-#content #unnata_content div.post div.image {
-	float: left;
-	width: 300px;
-	height: 400px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-#content #unnata_content div.post div#image1.image img {
-	border-radius: 30px;
-	border: 5px solid rgb(200,100,100);
-	width: 369px;
-	height: 323px;
-}
-#content #unnata_content div.post div#image2.image img {
-	border-radius: 30px;
-	border: 5px solid rgb(200,100,100);
-	width: 225px;
-	height: 224px;
-}
+/*************************/ /* Prenatal */
 
 span.unnata_footnote_symbol {
 	font-size: 20px;
@@ -383,6 +391,7 @@ p#unnata_footnote {
 	font-size: 14px;
 }
 
+/* Home Page content */
 #content #home_content h1 {
 	margin-bottom: 20px;
 	font-size: 28px;
@@ -390,53 +399,85 @@ p#unnata_footnote {
 	font-style: italic;
 	text-align: center;
 	color: white;
-}
-
-#content #home_content h1 {
 	margin-bottom: 5px;
 }
-
-#content #home_content #text1 {
+#content #home_content #left {
+	width: 330px;
+	float: left;
+	margin-right: 20px;
+}
+#content #home_content #left img {
+	position: relative;
+	border-radius: 20px;
+}
+#content #home_content #left #unnata_div {
+	width: 330px;
+	margin-bottom: 20px;
+}
+#content #home_content #left #unnata_div img {
+	border: 3px solid #47C3E6;
+}
+#content #home_content #left #unnata_div h1 {
+	margin-bottom: -150px;
+	margin-left: -15px;
+	position: relative;
+	z-index: 100;
+}
+#content #home_content #left #unnata_div h1 a {
+	width: 100%;
+	height: 100%;
+	font-family: 'FrenchScriptMT';
+	font-size: 70px;
+	font-weight: normal;
+	font-style: normal;
+	color: #47C3E6;
+}
+#content #home_content #left #unnata_div h1 a:hover {
+	text-decoration: none;
+}
+#content #home_content #left #unnata_div h1 sup {
+	font-size: 30px;
+}
+#content #home_content #center {
 	width: 400px;
-	height: 450px;
-	float: left;
-	padding-left: 50px;
-	padding-top: 100px;
-	font-size: 22px;
-}
-
-#content #home_content #text2 {
-	width: 600px;
 	float: left;
 }
-
-#content #home_content #text2 p {
-	margin-top: 5px;
+#content #home_content #center h1 {
+	margin-bottom: 30px;
+	color: black;
+	font-size: 20px;
 }
-
+#content #home_content #center p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+#content #home_content #center p.long_margin {
+	margin-bottom: 40px;
+}
+#content #home_content #right {
+	width: 330px;
+	float: left;
+}
+#content #home_content #right img#image1 {
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-bottom: 20px;
+}
+#content #home_content #right img#image2 {
+	border-radius: 20px;
+}
 p.important {
 	font-size: 20px;
 	font-weight: bold;
 }
-
 #content #home_content p.signature {
 	margin-top: 30px;
 }
-
-#content #home_content #board {
-	width: 100%;
-	float: left;
-	margin-bottom: 20px;
-}
-#content #home_content #board img {
-	margin-left: 300px;
-}
-
 #content #home_content #aerial_image {
 	margin-bottom: 20px;
 	width: 100%;
 }
-
 #content #home_content #prenatal {
 	cursor: pointer;
 	width: 700px;
@@ -445,11 +486,9 @@ p.important {
 	margin-left: 10px;
 	margin-bottom: 10px;
 }
-
 #content #home_content #prenatal img {
 	float: left;
 }
-
 #content #home_content #prenatal #cycle {
 	background: #7a9fcc;
 	border: 10px #d2dfed solid;
@@ -470,15 +509,12 @@ p.important {
 
 	margin-top: 30px;
 }
-
 #content #home_content #prenatal #cycle p#up {
 	margin-top: 55px;
 }
-
 #content #home_content #prenatal #cycle p#down {
 	margin-top: 30px;
 }
-
 #content #home_content #unnata {
 	cursor: pointer;
 	width: 324px;
@@ -486,11 +522,11 @@ p.important {
 	float: left;
 	margin-left: 100px;
 }
-
 #content #home_content #unnata img {
 	float: left;
 	margin-left: 10px;
 }
+/**********************/ /* Home Page content */
 
 #content #aboutus_content img {
 	float: left;
