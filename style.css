@@ -410,6 +410,31 @@ p#unnata_footnote {
 	position: relative;
 	border-radius: 20px;
 }
+#content #home_content #left #hatha_div {
+	width: 330px;
+}
+#content #home_content #left #hatha_div h1 {
+	margin-bottom: -55px;
+	margin-left: 90px;
+	position: relative;
+	z-index: 100;
+}
+#content #home_content #left #hatha_div h1 a {
+	width: 100%;
+	height: 100%;
+	font-family: 'FrenchScriptMT';
+	font-size: 50px;
+	font-weight: normal;
+	font-style: normal;
+	color: #47C3E6;
+}
+#content #home_content #left #hatha_div h1 a:hover {
+	text-decoration: none;
+}
+#content #home_content #left #hatha_div img {
+	position: relative;
+	border-radius: 20px;
+}
 #content #home_content #left #unnata_div {
 	width: 330px;
 	margin-bottom: 20px;
@@ -438,8 +463,30 @@ p#unnata_footnote {
 #content #home_content #left #unnata_div h1 sup {
 	font-size: 30px;
 }
+#content #home_content #left #event_div {
+	width: 330px;
+	margin-top: 20px;
+}
+#content #home_content #left #event_div img {
+	position: relative;
+	z-index: 1;
+}
+#content #home_content #left #event_div p {
+	color: white;
+	text-align: center;
+	margin-top: -80px;
+}
+#content #home_content #left #event_div p a {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+}
+#content #home_content #left #event_div p a:hover {
+	text-decoration: none;
+}
 #content #home_content #center {
-	width: 400px;
+	width: 370px;
 	float: left;
 }
 #content #home_content #center h1 {
@@ -456,9 +503,69 @@ p#unnata_footnote {
 	margin-bottom: 40px;
 }
 #content #home_content #right {
-	width: 330px;
+	margin-left: 10px;
+	width: 370px;
 	float: left;
 }
+#content #home_content #right #prenatal_div {
+	width: 370px;
+	height: 460px;
+}
+#content #home_content #right #prenatal_div h1 {
+	width: 200px;
+	height: 50px;
+	font-family: 'FrenchScriptMT';
+	font-size: 45px;
+	font-weight: normal;
+	font-style: normal;
+	color: #47C3E6;
+	color: white;
+	margin-left: 75px;
+	margin-bottom: -55px;
+	position: relative;
+	z-index: 100;
+	background: #7a9fcc;
+	border-right: 5px solid #b1c7e0;
+	border-bottom: 5px solid #b1c7e0;
+	border-left: 5px solid #b1c7e0;
+}
+#content #home_content #right img#image0 {
+	border: 3px solid #f6b9be;
+	border-radius: 20px;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white)); 
+/*	-webkit-transform: scaleY(-1);
+	-moz-transform: scaleY(-1); 
+	-ms-transform: scaleY(-1); 
+	-o-transform: scaleY(-1); 
+	transform: scaleY(-1); 
+	filter: flipv; opacity:0.20; 
+	filter: alpha(opacity='20'); */
+	position: relative;
+}
+#content #home_content #right #prenatal_div #cycle {
+	background: #7a9fcc;
+	border: 5px #d2dfed solid;
+	border-radius: 150px;
+	width: 210px;
+	height: 210px;
+	margin-left: 80px;
+	position: relative;
+	z-index: 100;
+}
+
+#content #home_content #right #prenatal_div #cycle p {
+	width: 180px;
+	text-align: center;
+	font-size: 0.8em;
+
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#content #home_content #prenatal_div #cycle p#up {
+	margin-top: 30px;
+	font-size: 0.9em;
+}
+
 #content #home_content #right img#image1 {
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
@@ -489,32 +596,7 @@ p.important {
 #content #home_content #prenatal img {
 	float: left;
 }
-#content #home_content #prenatal #cycle {
-	background: #7a9fcc;
-	border: 10px #d2dfed solid;
-	border-radius: 180px;
-	width: 330px;
-	height: 330px;
-	float: left;
-	margin-left: -50px;
-}
 
-#content #home_content #prenatal #cycle h1 {
-	margin-top: 20px;
-}
-#content #home_content #prenatal #cycle p {
-	font-size: 1.2em;
-	color: white;
-	text-align: center;
-
-	margin-top: 30px;
-}
-#content #home_content #prenatal #cycle p#up {
-	margin-top: 55px;
-}
-#content #home_content #prenatal #cycle p#down {
-	margin-top: 30px;
-}
 #content #home_content #unnata {
 	cursor: pointer;
 	width: 324px;
@@ -527,6 +609,42 @@ p.important {
 	margin-left: 10px;
 }
 /**********************/ /* Home Page content */
+
+/*****************************Events Page. ***********************************/
+#content #events_content h1 {
+	margin-left: 50px;
+	text-align: center;
+	font-size: 28px;
+}
+#content #events_content .top_margin {
+	margin-top: 20px;
+}
+#content #events_content .top_long_margin {
+	margin-top: 50px;
+}
+#content #events_content .bottom_margin {
+	margin-bottom: 20px;
+}
+#content #events_content span.quote {
+	font-style: italic;
+}
+#content #events_content p span.date {
+	text-decoration: underline;
+}
+#content #events_content img {
+	float: right;
+	margin-left: 30px; 
+	border-radius: 40px;
+}
+#content #events_content p.small_text {
+	font-size: 14px;
+	margin-left: 20px;
+}
+#content #events_content span.name {
+	font-style: italic;
+	font-weight: 800;
+}
+/*****************************************************************************/
 
 #content #aboutus_content img {
 	float: left;

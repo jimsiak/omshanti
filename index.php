@@ -100,12 +100,6 @@ Copyright: Siakavaras Dimitrios August 2013
 	<!-- BANNER -->
 	<a href="?page=home" id="banner_link">
 	<div id="my_banner">
-		<!--
-		<div id="invitation">
-			<h1>ΠΡΟΣΚΛΗΣΗ</h1>
-			<p>Το Σάββατο 21 Σεπτεμβριου και ώρα 14:00-16:00 σας έλατε να δείτε το χώρο μας, να κεραστείτε και να γνωριστούμε!</p>
-		</div>
-		-->
 		<img src="images/logo.jpg" alt="Logo image" />
 		<h1>Om shanti</h1>
 		<h2>yoga studio</h2>
