@@ -463,28 +463,6 @@ p#unnata_footnote {
 #content #home_content #left #unnata_div h1 sup {
 	font-size: 30px;
 }
-#content #home_content #left #event_div {
-	width: 330px;
-	margin-top: 20px;
-}
-#content #home_content #left #event_div img {
-	position: relative;
-	z-index: 1;
-}
-#content #home_content #left #event_div p {
-	color: white;
-	text-align: center;
-	margin-top: -80px;
-}
-#content #home_content #left #event_div p a {
-	width: 100%;
-	height: 100%;
-	position: relative;
-	z-index: 2;
-}
-#content #home_content #left #event_div p a:hover {
-	text-decoration: none;
-}
 #content #home_content #center {
 	width: 370px;
 	float: left;
@@ -506,6 +484,30 @@ p#unnata_footnote {
 	margin-left: 10px;
 	width: 370px;
 	float: left;
+}
+#content #home_content #right #event_div {
+	width: 330px;
+	margin-bottom: 10px;
+}
+#content #home_content #right #event_div img {
+	border-radius: 20px;
+	position: relative;
+	z-index: 1;
+}
+#content #home_content #right #event_div p {
+	color: white;
+	text-align: center;
+	margin-top: -80px;
+}
+#content #home_content #right #event_div p a {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+	font-style: italic;
+}
+#content #home_content #right #event_div p a:hover {
+	text-decoration: none;
 }
 #content #home_content #right #prenatal_div {
 	width: 370px;
@@ -554,12 +556,12 @@ p#unnata_footnote {
 }
 
 #content #home_content #right #prenatal_div #cycle p {
-	width: 180px;
+	width: 160px;
 	text-align: center;
 	font-size: 0.8em;
 
 	margin-top: 5px;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 #content #home_content #prenatal_div #cycle p#up {
 	margin-top: 30px;
@@ -615,6 +617,12 @@ p.important {
 	margin-left: 50px;
 	text-align: center;
 	font-size: 28px;
+}
+#content #events_content h2 {
+	font-size: 32px;
+}
+#content #events_content h3 {
+	font-size: 22px;
 }
 #content #events_content .top_margin {
 	margin-top: 20px;
@@ -958,8 +966,9 @@ p.important {
 /**********************************/
 #program
 {
-	margin-bottom: 20px;
+	margin-bottom: 90px;
 	width: 100%;
+	height: 700px;
 }
 #program h1
 {
@@ -974,14 +983,18 @@ p.important {
 	font-style: italic;
 	margin-top: 10px;
 }
+#program div {
+	height: 630px;
+}
 #program #old {
 	width: 50%;
 	float: left;
 	clear: none;
 }
 #program #new {
-	width: 60%;
-	margin-left: 250px;
+/*	width: 60%;
+	margin-left: 250px; */
+	width: 50%;
 	float: left;
 }
 table.program_table
