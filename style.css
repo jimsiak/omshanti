@@ -966,7 +966,6 @@ p.important {
 /**********************************/
 #program
 {
-	margin-bottom: 90px;
 	width: 100%;
 	height: 700px;
 }
@@ -983,19 +982,16 @@ p.important {
 	font-style: italic;
 	margin-top: 10px;
 }
-#program div {
-	height: 630px;
-}
 #program #old {
 	width: 50%;
 	float: left;
 	clear: none;
 }
 #program #new {
-/*	width: 60%;
-	margin-left: 250px; */
-	width: 50%;
-	float: left;
+	width: 60%;
+	height: 100%;
+	margin-left: 230px; 
+/*	float: left; */
 }
 table.program_table
 {
@@ -1004,12 +1000,14 @@ table.program_table
 	border: 1px solid black;
 	margin: 5px 25px 0px 0px;
 	text-align: center;
+	height: 200px;
 }
 table.program_table th, table.program_table td
 {
 	border: 1px solid black;
 	width: 100px;
-	height: 60px;
+	height: 20px;
+	max-height: 30px;
 }
 table.program_table th
 {
