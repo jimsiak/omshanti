@@ -983,14 +983,18 @@ p.important {
 	margin-top: 10px;
 }
 #program #old {
-	width: 50%;
+	width: 55%;
 	float: left;
 	clear: none;
+	font-size: 14px;
 }
 #program #new {
-	width: 60%;
+/*	width: 60%; */
 	height: 100%;
-	margin-left: 230px; 
+/*	margin-left: 230px; */
+	width: 45%;
+	float: left;
+	font-size: 14px;
 /*	float: left; */
 }
 table.program_table
