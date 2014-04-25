@@ -17,7 +17,7 @@ Copyright: Siakavaras Dimitrios August 2013
 
 <!-- What is the current page? -->
 <?php 
-	$labels = array("home", "prenatal yoga", "Unnata<sup>&reg;</sup> Aerial Yoga", "events-workshops",
+	$labels = array("home", "prenatal yoga", "Aerial Yoga", "events-workshops",
 	                "Πρόγραμμα και Τιμές",  "ο χώρος μας", "shop", "policy", "About us", "επικοινωνία");
 	$pages = array("home", "prenatal_yoga", "unnata_aerial_yoga", "events", 
 	                "program", "our_place", "shop", "policy", "about_us", "contact");
