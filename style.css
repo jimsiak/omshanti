@@ -1235,6 +1235,13 @@ h3.policy_h3
 }
 
 /*** Our Place Tab***/
+.our_place_content div.upper_text {
+	width: 70%;
+	margin-bottom: 60px;
+	margin-left: 170px;
+	text-align: center;
+}
+
 .our_place_content h3 {
 	margin-left: 270px;
 	margin-bottom: 20px;
