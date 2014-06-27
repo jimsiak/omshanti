@@ -484,6 +484,20 @@ p#unnata_footnote {
 #content #home_content #center p.long_margin {
 	margin-bottom: 40px;
 }
+#content #home_content #center div.announcements {
+	margin-bottom: 40px;
+}
+#content #home_content #center div.announcements h1 {
+	text-decoration: underline;
+	font-size: 25px;
+}
+#content #home_content #center div.announcements ul {
+	list-style-type: disc;
+}
+#content #home_content #center div.announcements li.large_text {
+	font-size: 18px;
+	font-weight: bold;
+}
 #content #home_content #right {
 	margin-left: 10px;
 	width: 370px;
@@ -696,7 +710,15 @@ p.important {
 	margin-left: 130px;
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
+	margin-bottom: 10px;
+}
+#content #events_content div.event_div div.reservation {
+	width: 80%;
+	margin-left: 130px;
+	font-size: 15px;
+	color: red;
 	margin-bottom: 20px;
+	font-style: italic;
 }
 #content #events_content div.event_div div.description p.quote {
 	width: 100%;
