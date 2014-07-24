@@ -1093,6 +1093,10 @@ table.program_table
 	text-align: center;
 	height: 200px;
 }
+table.program_table td.center_aligned {
+	text-align: center;
+	vertical-align: middle;
+}
 table.program_table th, table.program_table td
 {
 	border: 1px solid black;
