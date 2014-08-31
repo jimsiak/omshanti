@@ -495,7 +495,7 @@ p#unnata_footnote {
 	list-style-type: disc;
 }
 #content #home_content #center div.announcements li.large_text {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 }
 #content #home_content #right {
@@ -1186,6 +1186,15 @@ table.program_table span.class
 table.program_table span.levels
 {
 	font-style: italic;
+}
+
+#content #program p.program_soon
+{
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 200px;
 }
 
 /*********************************************/
