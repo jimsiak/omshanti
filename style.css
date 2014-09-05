@@ -393,6 +393,7 @@ span.unnata_footnote_symbol {
 
 p#unnata_footnote {
 	font-size: 14px;
+	width: 100%;
 }
 
 /* Home Page content */
@@ -1061,7 +1062,7 @@ p.important {
 #program
 {
 	width: 100%;
-	height: 550px;
+	height: 620px;
 }
 #program h1
 {
@@ -1077,10 +1078,9 @@ p.important {
 	margin-top: 10px;
 }
 #program #new {
-	width: 60%; 
+	width: 50%; 
 	height: 100%;
-	margin-left: 230px; 
-	float: left;
+/*	margin-left: 230px;  */
 	font-size: 14px;
 	float: left; 
 }
@@ -1144,32 +1144,6 @@ table.program_table td a
 	font-style: italic;
 
 }
-/*
-table.program_table td.meditation_cell
-{
-	background-color: #00ceb6;
-}
-
-table.program_table td.hatha_cell
-{
-	background-color: #90ceb6;
-}
-
-table.program_table td.gentle_cell
-{
-	background-color: #e0fff6;
-}
-
-table.program_table td.aerial_cell
-{
-	background-color: #5555f6;
-}
-
-table.program_table td.morn_cell
-{
-	background-color: #66ff99;
-}
-*/
 table.program_table span.time
 {
 	display: block;
@@ -1186,6 +1160,15 @@ table.program_table span.class
 table.program_table span.levels
 {
 	font-style: italic;
+}
+#content div.open_times
+{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	border-bottom: 1px solid purple;
+	border-top: 1px solid purple;
+	margin-bottom: 50px;
 }
 
 #content #program p.program_soon
