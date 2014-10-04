@@ -512,6 +512,7 @@ p#unnata_footnote {
 	margin-left: -30px; /* Temp for acroYoga event. */
 }
 #content #home_content div.event_div img {
+	margin-bottom: 30px;
 	border-radius: 20px;
 	position: relative;
 	z-index: 1;
@@ -519,35 +520,31 @@ p#unnata_footnote {
 	border: 2px solid black;
 }
 #content #home_content #left div.event_div img {
-	margin-bottom: 30px;
-	margin-left: 10px;
+	margin-left: 20px;
+	width: 90%;
 }
 #content #home_content #right div.event_div img {
 	margin-left: 30px;
-	margin-bottom: 30px;
-}
-#content #home_content #right div.event_div #text {
-	width: 330px;
-	text-align: center;
-	margin-bottom: -60px;
-}
-#content #home_content #right div.event_div p a {
-	width: 330px;
-	position: relative;
-	z-index: 2;
-	font-style: italic;
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-}
-#content #home_content #right div.event_div p#subtitle a {
-	font-size: 15px;
-	font-style: italic;
-	font-weight: normal;
 }
 #content #home_content #right div.event_div a:hover {
 	text-decoration: none;
 }
+#content #home_content div#event_div_anapnoi.event_div h1.title {
+	font-size: 15px;
+	color: black;
+	z-index: 100;
+	margin-bottom: -70px;
+	position: relative;
+}
+#content #home_content div#event_div_acroyoga.event_div p {
+	font-size: 15px;
+	color: white;
+	z-index: 100;
+	margin-bottom: -90px;
+	position: relative;
+	margin-left: 40px;
+}
+
 #content #home_content #right #prenatal_div {
 	width: 370px;
 	height: 230px;
@@ -697,7 +694,6 @@ p.important {
 	width: 100%;
 	text-align: center;
 	font-size: 18px;
-/*	margin-left: 300px; */
 	margin-bottom: 10px;
 	font-style: italic;
 }
@@ -728,6 +724,10 @@ p.important {
 	margin: 10px;
 	margin-left: 300px;
 	border-radius: 150px;
+}
+#content #events_content div.event_div div.description ul {
+	list-style-type: circle;
+	padding-left: 50px;
 }
 #content #events_content div.event_div div.reservation {
 	width: 80%;
@@ -779,11 +779,11 @@ p.important {
 	float: left;
 	margin-top: 50px;
 }
-#content #events_content div.event_div div.cost_and_participation_div div#cost_div {
+#content #events_content div.event_div div.cost_and_participation_div div.cost_div {
 	width: 70%;
 	float: left;
 }
-#content #events_content div.event_div div.cost_and_participation_div div#participation_div {
+#content #events_content div.event_div div.cost_and_participation_div div.participation_div {
 	width: 25%;
 	float: left;
 	border: 3px solid black;
@@ -792,13 +792,19 @@ p.important {
 	padding: 5px;
 	text-align: center;
 }
-#content #events_content div.event_div div.cost_and_participation_div div#participation_div h1 {
+#content #events_content div.event_div div#event_anapnoi.cost_and_participation_div div.cost_div {
+	width: 60%;
+}
+#content #events_content div.event_div div#event_anapnoi.cost_and_participation_div div.participation_div {
+	width: 35%;
+}
+#content #events_content div.event_div div.cost_and_participation_div div.participation_div h1 {
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
 	margin-bottom: 8px;
 }
-#content #events_content div.event_div div.cost_and_participation_div div#obligatory {
+#content #events_content div.event_div div.cost_and_participation_div div.obligatory {
 	width: 100%;
 	height: 20px;
 	float: left;
