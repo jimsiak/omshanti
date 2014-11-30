@@ -536,13 +536,8 @@ p#unnata_footnote {
 	margin-bottom: -70px;
 	position: relative;
 }
-#content #home_content div#event_div_acroyoga.event_div p {
-	font-size: 15px;
-	color: white;
-	z-index: 100;
-	margin-bottom: -90px;
-	position: relative;
-	margin-left: 40px;
+#content #home_content div#event_div_abhaya.event_div img {
+	width: 100%;
 }
 
 #content #home_content #right #prenatal_div {
@@ -815,6 +810,14 @@ p.important {
 	font-size: 13px;
 	font-style: italic;
 }
+
+#content #events_content div#event_abhaya div.main_img_div img {
+	width: 50%;
+	float: left;
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
 /*****************************************************************************/
 
 #content #aboutus_content img {
