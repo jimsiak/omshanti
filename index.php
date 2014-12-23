@@ -166,8 +166,8 @@ Copyright: Siakavaras Dimitrios August 2013
 	?>
 	<!-- END CONTENT -->
 
-</div>
-</div>
+</div> <!-- END CONTAINER -->
+</div> <!-- END WRAPPER -->
 
 <!-- FOOTER -->
 <div id="footer">
