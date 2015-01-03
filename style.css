@@ -1183,7 +1183,7 @@ table.program_table
 	background: #504085;
 	border-collapse: separate;
 	border: 1px solid black;
-	margin: 25px 25px 0px 0px;
+	margin: 25px 25px 0px -50px;
 	text-align: center;
 	height: 200px;
 }
@@ -1213,6 +1213,12 @@ table.program_table td a
 {
 	color: black;
 }
+/* For 'Κλειστά' columns. */
+table.program_table td[rowspan]
+{
+	vertical-align: middle;
+}
+
 #content #program #cycle {
 	background: #7a9fcc;
 	border: 5px #d2dfed solid;
